@@ -91,7 +91,7 @@ app.post('/hook', async (req, res) => {
 
 // Test endpoint...
 app.get("/", (req, res) => {
-  res.send("Hello I'm working!");
+  res.send("----------Hello I'm working!----------");
 });
 
 /////////////////////////////////////////////////////
